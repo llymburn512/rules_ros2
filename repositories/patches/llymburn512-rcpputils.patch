@@ -1,0 +1,12 @@
+diff --git a/include/rcpputils/filesystem_helper.hpp b/include/rcpputils/filesystem_helper.hpp
+index 9fd1090..872b0d0 100644
+--- a/include/rcpputils/filesystem_helper.hpp
++++ b/include/rcpputils/filesystem_helper.hpp
+@@ -39,6 +39,7 @@
+ #ifndef RCPPUTILS__FILESYSTEM_HELPER_HPP_
+ #define RCPPUTILS__FILESYSTEM_HELPER_HPP_
+ 
++#include <cstdint>
+ #include <string>
+ #include <vector>
+ 

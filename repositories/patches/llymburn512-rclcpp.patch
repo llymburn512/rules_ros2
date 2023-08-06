@@ -1,0 +1,24 @@
+diff --git a/rclcpp/include/rclcpp/context.hpp b/rclcpp/include/rclcpp/context.hpp
+index 2d8db29d..ce573c8b 100644
+--- a/rclcpp/include/rclcpp/context.hpp
++++ b/rclcpp/include/rclcpp/context.hpp
+@@ -19,6 +19,7 @@
+ #include <functional>
+ #include <memory>
+ #include <mutex>
++#include <stdexcept>
+ #include <string>
+ #include <typeindex>
+ #include <typeinfo>
+diff --git a/rclcpp/src/rclcpp/logging_mutex.cpp b/rclcpp/src/rclcpp/logging_mutex.cpp
+index 308a21fe..bbbe9bbe 100644
+--- a/rclcpp/src/rclcpp/logging_mutex.cpp
++++ b/rclcpp/src/rclcpp/logging_mutex.cpp
+@@ -14,6 +14,7 @@
+ 
+ #include <memory>
+ #include <mutex>
++#include <stdexcept>
+ 
+ #include "rcutils/macros.h"
+ 
